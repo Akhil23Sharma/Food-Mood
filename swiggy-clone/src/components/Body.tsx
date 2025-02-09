@@ -123,8 +123,7 @@ const Body = () => {
           );
         })}
       </div>
-      {/* <p>Loading more restaurants...</p> */
-      //comment 2 } 
+      {<p>Loading..</p>}
       <AdCard />
     </div>
   );
