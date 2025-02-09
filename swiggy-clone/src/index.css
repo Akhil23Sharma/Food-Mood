@@ -1,0 +1,235 @@
+@import "tailwindcss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+.header > h3 {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+}
+
+.logo {
+  width: 110px;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.nav-container > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-container > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.filter {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.Search {
+  padding: 10px;
+}
+.top-rated-btn {
+  background-color: rgb(242, 132, 132);
+  margin: 10px;
+  padding: 10px;
+}
+.top-rated-btn:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 12px rgba(80, 55, 55, 0.3);
+}
+
+.res-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 460px;
+  border: 1px solid;
+  padding: 10px;
+  background-color: azure;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+ /* }
+.shimmerRoot {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.shimmerCard {
+  width: 330px;
+  height: 460px;
+  border: 1px solid;
+  padding: 10px;
+  background-color: rgba(240, 252, 252, 0.76);
+}
+.res-card h4 {
+  padding: 10px;
+  text-align: center;
+  font-size: smaller;
+  word-wrap: break-word;
+  margin: 10px;
+}
+
+.res-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.food-image {
+  padding: 10px;
+  width: 200px;
+  height: 180px;
+  align-self: center;
+  border: 2px solid orange;
+}
+
+.restaurantContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 16px;
+  justify-content: center;
+} */
+
+/* Initial fade-in animation */
+
+/*
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ad-card {
+  width: 200px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ad-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.ad-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.footer-class {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.menu-item-content {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+  /* Optional: Removes bullets from <li> */
+
+/*
+}
+
+.user-card {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/*testing */
+/*
+.MyApp {
+  text-align: center;
+  margin: 20px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.progress-container {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin: 10px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #28a745;
+  width: 0%;
+  transition: width 0.02s linear;
+}
+
